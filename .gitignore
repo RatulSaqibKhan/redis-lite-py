@@ -1,0 +1,89 @@
+# -----------------------------------------
+# Python Cache / Bytecode
+# -----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# C extensions
+*.so
+
+# -----------------------------------------
+# Virtual Environments
+# -----------------------------------------
+venv/
+env/
+.venv/
+.env/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# -----------------------------------------
+# Build & Distribution
+# -----------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# -----------------------------------------
+# Logs & Runtime Files
+# -----------------------------------------
+*.log
+logs/
+debug.log
+
+# Server runtime files (if any)
+*.pid
+
+# -----------------------------------------
+# IDE / Editor Files
+# -----------------------------------------
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------------------
+# OS Files
+# -----------------------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------
+# Tests / Coverage
+# -----------------------------------------
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# -----------------------------------------
+# Environment / secrets
+# -----------------------------------------
+.env.local
+.env.test
+.secrets/
+*.env
+
+# -----------------------------------------
+# Misc
+# -----------------------------------------
+*.tmp
+*.bak
